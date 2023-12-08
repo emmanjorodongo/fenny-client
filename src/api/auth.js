@@ -17,5 +17,6 @@ export async function onLogout() {
 }
 
 export async function fetchProtectedInfo() {
-  return await axios.get('https://fenny-backend-server.onrender.com/api/protected')
+  return await axios.get('http://fenny-backend-server.onrender.com/api/protected')
 }
+
